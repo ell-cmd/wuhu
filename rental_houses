@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ihome</title>
+</head>
+
+<body>
+
+
+
+    <div class="tbd" style="text-align: center; margin-top:10px;">
+
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div class="wuuuuuuu" style="width:300px;">
+                <div class="log">
+                    <p style="padding:10px; background-color:green; color:white; font-size:11px; border-radius:50px;">advertise house</p>
+                </div>
+
+                <div class="log">
+                    <label for="nprofile">I am a</label>
+                    <select name="profiletype" id="">
+                        <option value="house owner">house owner </option>
+                        <option value="house agent">house agent </option>
+                        <option value="others">others</option>
+                    </select>
+                </div>
+
+                <div class="log">
+                    <label for="profile">profile</label>
+                    <input type="text" name="profile" id="">
+                </div>
+                <div class="log">
+                    <label for="location">location</label>
+                    <input type="text" name="location" id="">
+                </div>
+                <div class="log">
+                    <label for="sub_location">sub_location</label>
+                    <input type="text" name="sub_location" id="">
+                </div>
+                <div class="log">
+                    <label for="estate">estate</label>
+                    <input type="text" name="estate" id="">
+                </div>
+                <div class="log">
+                    <label for="rent">rent</label>
+                    <input type="number" name="rent" id="">
+                </div>
+                <div class="log">
+                    <label for="house_type">house_type</label>
+                    <select name="house_type" id="">
+                        <option value="single room">single room</option>
+                        <option value="double room">double room</option>
+                        <option value="one bedroom">one bedroom</option>
+                        <option value="two bedroom">two bedroom</option>
+                        <option value="three bedroom">three bedroom</option>
+                        <option value="four bedroom">four bedroom</option>
+                        <option value="five bedroom">five bedroom</option>
+                        <option value="six bedroom">six bedroom</option>
+                        <option value="others">others</option>
+
+                    </select>
+                </div>
+                <div class="log">
+                    <label for="water">water</label>
+                    <input type="text" name="water" id="" placeholder="@unit">
+
+                </div>
+                <div class="log">
+                    <label for="electricity">electricity</label>
+                    <select name="electricity" id="">
+                        <option value="digital meter">digital meter/token</option>
+                        <option value="old meter">old meter</option>
+                        <option value="solar">solar</option>
+
+                    </select>
+                </div>
+                <div class="log">
+                    <label for="security">security</label>
+                    <select name="security" id="">
+                        <option value="guard">guard</option>
+                        <option value="cctv">cctv cameras</option>
+                        <option value="guard/digital cctv cameras">guard/cctv</option>
+                        <option value="others">others</option>
+
+
+                    </select>
+                </div>
+                <div class="log">
+                    <label for="flour">flour</label>
+                    <input type="text" name="flour" id="">
+                </div>
+                <div class="log">
+                    <label for="pets">pets</label>
+
+                    <select name="pets" id="">
+                        <option value="allowed">allowed</option>
+                        <option value="not allowed">not allowed</option>
+                    </select>
+
+
+                </div>
+                <div class="log">
+                    <label for="internet">internet</label>
+                    <select name="internet" id="">
+                        <option value="available free">available free</option>
+                        <option value="available vendor changes">available vendor charges</option>
+                        <option value="not available">not available</option>
+
+                    </select>
+                </div>
+                <div class="log">
+                    <label for="parking">parking</label>
+
+                    <select name="parking" id="">
+                        <option value="available 1 car">available 1 car</option>
+                        <option value="available 1 to 4 cars">available 1 to 4 cars</option>
+                        <option value="available more than 5 cars">available more than 5 cars</option>
+                        <option value="not available">not available</option>
+
+                    </select>
+
+                </div>
+
+                <div class="log">
+                    <label for="description">brief house description</label>
+                    <input type="textarea" name="description" id="">
+                </div>
+
+                <div class="log">
+
+                    <input type="submit" name="submit" value="submit" style="color:white; background-color: black;">
+                </div>
+                <div class="log">
+                    <p style="font-size: 11px;">have an account? <a style="text-decoration: none;" href="index.php">login</a> </p>
+
+                </div>
+
+                <style>
+                    .log {
+                        margin: 10px;
+                    }
+
+                    .log a {
+                        font-size: 11px;
+                        margin: 10px;
+                    }
+
+                    .log label {
+                        font-size: 11px;
+                    }
+
+                    .log input {
+                        font-size: 11px;
+                        text-align: center;
+                        border: 1px solid chocolate;
+                        border-radius: 20px;
+                        padding: 8px;
+                    }
+                </style>
+            </div>
+
+            <div class="imgaes">
+                <input type="file" name="image[]" required multiple>
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>
